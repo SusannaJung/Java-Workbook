@@ -16,6 +16,9 @@ public class WBManager {
 			new StepAManager();
 		else if(step.equalsIgnoreCase("B"))
 			new StepBManager();
+		else if(step.equalsIgnoreCase("C"))
+			new StepCManager();
+		
 		
 		System.out.printf("종료되었습니다.\n");
 	}	
