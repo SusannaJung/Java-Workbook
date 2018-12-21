@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import StepA.StepAManager;
+import StepB.StepBManager;
 
 public class WBManager {
 

@@ -25,6 +25,7 @@ public class StepBManager {
 			printf("=>원하는 메뉴는?(0:exit) :");
 			
 			menu = s.nextInt();
+			s.close();
 			if(menu == 0) break;
 			
 			switch(menu) {
