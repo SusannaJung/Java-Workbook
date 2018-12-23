@@ -4,6 +4,7 @@ import StepA.StepAManager;
 import StepB.StepBManager;
 import StepC.StepCManager;
 import StepD.StepDManager;
+import StepE.StepEManager;
 
 public class WBManager {
 
@@ -22,6 +23,8 @@ public class WBManager {
 			new StepCManager();
 		else if(step.equalsIgnoreCase("D"))
 			new StepDManager();
+		else if(step.equalsIgnoreCase("E"))
+			new StepEManager();
 		
 		
 		
