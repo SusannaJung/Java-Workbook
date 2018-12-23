@@ -6,7 +6,7 @@ public class StepD6 {
 	
 	private double m2_area;
 	private double pyung_area;
-	private int count1, count2, count3, count4;
+	private int count1=0, count2=0, count3=0, count4=0;
 	
 	public StepD6() {
 		input();
