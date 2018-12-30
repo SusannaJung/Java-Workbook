@@ -28,12 +28,12 @@ public class StepEManager {
 			case 2:
 				
 				StepE2 e2 = new StepE2();
-				e2.printRightTri();
+				e2.printTri();
 				break;
 			case 3:
 				
 				StepE3 e3 = new StepE3();
-				e3.printIsoTri();
+				e3.printTri();
 				break;
 			case 4:
 				StepE4 e4 = new StepE4();

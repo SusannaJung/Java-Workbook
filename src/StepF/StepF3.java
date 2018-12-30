@@ -30,6 +30,9 @@ public class StepF3 {
 	
     public void printJumsu() {
     	
+    	String sub[] = { "국어", "영어", "수학"};
+    
+    	
     	for(int i=0; i<5; i++) {
     		for(int j=0; j<3; j++) {
     			sum[j] += jumsu[i][j];
@@ -42,10 +45,10 @@ public class StepF3 {
     	}
     	
     	
+    	for(int j=0; j<3; j++) {
+    		System.out.printf("%s의 총점은 %d 이고, 평균은 %.1f 입니다.\n",sub[j], sum[j], average[j]);
+	    }
     	
-		System.out.printf("국어의 총점은 %d 이고, 평균은 %.1f 입니다.\n",sum[0], average[0]);
-		System.out.printf("영어의 총점은 %d 이고, 평균은 %.1f 입니다.\n",sum[1],average[1]);
-		System.out.printf("수학의 총점은 %d 이고, 평균은 %.1f 입니다.\n",sum[2], average[2]);
-	}
+    }
 		
 }
