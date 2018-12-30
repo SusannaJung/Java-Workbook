@@ -18,7 +18,7 @@ public class StepG7 {
 		input();
 	}
 	
-	public void printCharge() {
+	public void printTicket() {
 		System.out.printf("\n오늘 총 방문자 수는 %d명입니다.\n", total_count);
 		for(int i =0; i < 4; i++) {
 			System.out.printf("%s 수는 %d명입니다.\n", name[i], v_count[i]);

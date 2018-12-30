@@ -49,7 +49,7 @@ public class StepG2 {
 		}
 	}
 	
-	void printTemp() {
+	public void printTemp() {
 		for(int j=0;j<10;j++) {
 			System.out.print((j+1)+"번 물의 온도는 "+this.degrees[j]+"도 입니다. ");
 					if(this.degrees[j]<25) {
