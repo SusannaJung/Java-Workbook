@@ -14,7 +14,7 @@ public class StepD10 {
 	void input() {
 		Scanner s= new Scanner(System.in);
 		
-		System.out.print("2°³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
+		System.out.print("2ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.num1= s.nextInt();
 		this.num2= s.nextInt();
 		
