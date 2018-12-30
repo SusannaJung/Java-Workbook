@@ -14,15 +14,15 @@ public class StepB4 {
 	public void printPyung() {
 		
 		if(this.pyung_area<30) {
-			System.out.printf("¾ÆÆÄÆ®ÀÇ ÆòÇüÀº %fÀÌ°í,\n30Æò ¹Ì¸¸ÀÌ¹Ç·Î ÀÛÀº ¾ÆÆÄÆ® ÀÔ´Ï´Ù", getPyung());	
+			System.out.printf("ì•„íŒŒíŠ¸ì˜ í‰í˜•ì€ %.1fì´ê³ ,\n 30í‰ ë¯¸ë§Œì´ë¯€ë¡œ ìž‘ì€ ì•„íŒŒíŠ¸ìž…ë‹ˆë‹¤", getPyung());	
 		}
 		else {
-			System.out.printf("¾ÆÆÄÆ®ÀÇ ÆòÇüÀº %fÀÌ°í,\n30Æò ÀÌ»óÀÌ¹Ç·Î Å« ¾ÆÆÄÆ® ÀÔ´Ï´Ù", getPyung());
+			System.out.printf("ì•„íŒŒíŠ¸ì˜ í‰í˜•ì€ %.1fì´ê³ ,\\n 30í‰ ì´ìƒì´ë¯€ë¡œ í° ì•„íŒŒíŠ¸ìž…ë‹ˆë‹¤", getPyung());
 		}
 	}
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("¾ÆÆÄÆ® ºÐ¾ç ¸éÀûÀ» ÀÔ·ÂÇÏ½Ã¿À. ");
+		System.out.print("ì•„íŒŒíŠ¸ì˜ ë¶„ì–‘ ë©´ì (ì œê³±ë¯¸í„°)ì„ ìž…ë ¥í•˜ì‹œì˜¤. ");
 		this.m2_area = s.nextDouble();
 		s.close();
 	}

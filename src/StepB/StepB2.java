@@ -13,14 +13,14 @@ public class StepB2 {
 	}
 	
 	public void printTemp() {
-		System.out.printf("º¯È¯µÈ ¿Âµµ´Â %d ÀÔ´Ï´Ù.\n", getTemp());
+		System.out.printf("ë³€í™˜ëœ ì˜¨ë„ëŠ” %.1f ì…ë‹ˆë‹¤.\n", getTemp());
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("ì˜¨ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”. ");
 		this.input_degree = s.nextDouble();
-		System.out.print("ÀÔ·ÂÇÏ½Å ¿Âµµ°¡ ¼·¾¾¿ÂµµÀÌ¸é C¸¦, È­¾¾¿ÂµµÀÌ¸é F¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("ì…ë ¥í•˜ì‹  ì˜¨ë„ê°€ ì„­ì”¨ì˜¨ë„ì´ë©´  Cë¥¼, í™”ì”¨ì˜¨ë„ì´ë©´ Fë¥¼ ì…ë ¥í•˜ì„¸ìš”. ");
 		this.kind = s.next();
 		s.close();
 	}

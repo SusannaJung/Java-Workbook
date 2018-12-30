@@ -12,16 +12,16 @@ public class StepA6 {
 	}
 	
 	public void printScore() {
-		System.out.printf("ÀÔ·ÂÇÏ½Å Á¡¼öÀÇ ÃÑÁ¡Àº %d ÀÌ°í,\nÆò±ÕÀº %f ÀÔ´Ï´Ù.\n",getTotal(), getAvg());
+		System.out.printf("ì…ë ¥í•˜ì‹  ì ìˆ˜ì˜ ì´ì ì€ %d ì´ê³ ,\n í‰ê· ì€ %.1f ì…ë‹ˆë‹¤.\n",getTotal(), getAvg());
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("±¹¾î Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("êµ­ì–´ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.kor = s.nextInt();
-		System.out.print("¿µ¾î Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("ì˜ì–´ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.eng = s.nextInt();
-		System.out.print("¼öÇĞ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("ìˆ˜í•™ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.math = s.nextInt();
 		s.close();
 	}

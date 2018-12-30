@@ -14,14 +14,14 @@ public class StepB7 {
 	}
 	
 	public void printFile() {
-		System.out.printf("ÆÄÀÏ Àü¼Û ½Ã°£Àº %d ÃÊÀÔ´Ï´Ù.\n", getTime());
+		System.out.printf("íŒŒì¼ ì „ì†¡ ì‹œê°„ì€ %d ì´ˆì…ë‹ˆë‹¤.\n", getTime());
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("ÆÄÀÏ ¿ë·®À» ¸Ş°¡¹ÙÀÌÆ® ´ÜÀ§·Î ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("íŒŒì¼ ìš©ëŸ‰ì„ ë©”ê°€ë°”ì´íŠ¸ ë‹¨ìœ„ë¡œ ì…ë ¥í•˜ì„¸ìš”. ");
 		this.megabytes = s.nextInt();
-		System.out.print("USB Æ÷Æ®°¡ 2.0ÀÌ¸é Y, ¾Æ´Ï¸é NÀ» ÀÔ·ÂÇÏ¼¼¿ä ");
+		System.out.print("USB í¬íŠ¸ê°€ 2.0ì´ë©´ Y, ì•„ë‹ˆë©´ Në¥¼ ì…ë ¥í•˜ì„¸ìš”  ");
 		this.usb2= s.next();
 		s.close();
 	}

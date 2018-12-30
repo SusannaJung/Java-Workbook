@@ -13,7 +13,7 @@ public class StepB5 {
 	}
 	
 	public void printSec() {
-		System.out.printf("³¯ ¼ö¿¡ ÇØ´çµÇ´Â ½Ã°£Àº ¸ğµÎ %d ÃÊÀÔ´Ï´Ù.\n", getSec());
+		System.out.printf("ë‚ ìˆ˜ì— í•´ë‹¹ë˜ëŠ” ê¸°ê°„ì€ ëª¨ë‘ %d ì´ˆì…ë‹ˆë‹¤.\n", getSec());
 		if(this.seconds>1000000) {
 			getCount();
 		}
@@ -22,7 +22,7 @@ public class StepB5 {
 	void input() {
 		
 		Scanner s = new Scanner(System.in);
-		System.out.print("³¯ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("ë‚  ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.days = s.nextInt();
 		s.close();
 	}
@@ -35,7 +35,7 @@ public class StepB5 {
 	void getCount() {
 		
 		this.m_count= this.seconds/1000000;
-		System.out.println("100¸¸ÃÊ°¡ ¸ğµÎ" + m_count +"¹øÀÌ³ª Æ÷ÇÔµË´Ï´Ù.\n");
+		System.out.println("100ë§Œ ì´ˆê°€ ëª¨ë‘" + m_count +"ë²ˆì´ë‚˜ í¬í•¨ë©ë‹ˆë‹¤.\n");
 	}
 
 }

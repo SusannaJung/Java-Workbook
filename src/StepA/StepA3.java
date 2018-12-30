@@ -13,14 +13,14 @@ public class StepA3 {
 	}
 	
 	public void printArea() {
-		System.out.printf("Á÷»ç°¢ÇüÀÇ ³ĞÀÌ´Â %d ÀÔ´Ï´Ù.\n", getArea());
+		System.out.printf("ì§ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” %dì…ë‹ˆë‹¤.\n", getArea());
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("Á÷»ç°¢ÇüÀÇ °¡·Î Å©±â¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
+		System.out.print("ì§ì‚¬ê°í˜•ì˜ ê°€ë¡œ í¬ê¸°ë¥¼ ì…ë ¥í•˜ì‹œì˜¤. ");
 		this.width = s.nextInt();
-		System.out.print("Á÷»ç°¢ÇüÀÇ ¼¼·Î Å©±â¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
+		System.out.print("ì§ì‚¬ê°í˜•ì˜ ì„¸ë¡œ í¬ê¸°ë¥¼ ì…ë ¥í•˜ì‹œì˜¤. ");
 		this.height = s.nextInt();
 		s.close();
 		

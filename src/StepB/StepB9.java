@@ -13,17 +13,17 @@ public class StepB9 {
 	
 	public void printBmi() {
 		if(getBmi()>25)
-			System.out.print("´ç½ÅÀº ºñ¸¸ÀÌ½Ê´Ï´Ù.\n");
+			System.out.print("ë‹¹ì‹ ì€ ë¹„ë§Œì´ì‹­ë‹ˆë‹¤.\n");
 		else
-			System.out.print("´ç½ÅÀº ºñ¸¸ÀÌ ¾Æ´Ï±º¿ä.\n");
+			System.out.print("ë‹¹ì‹ ì€ ë¹„ë§Œì´ ì•„ë‹ˆêµ°ìš”.\n");
 
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("½ÅÀå(cm´ÜÀ§)¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("ì‹ ì¥(cmë‹¨ìœ„)ì„ ì…ë ¥í•˜ì„¸ìš”.");
 		this.height = s.nextInt();
-		System.out.print("Ã¼Áß(kg´ÜÀ§)¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("ì²´ì¤‘(kgë‹¨ìœ„)ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.weight = s.nextInt();
 		s.close();
 	}

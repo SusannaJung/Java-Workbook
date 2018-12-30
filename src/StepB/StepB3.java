@@ -13,18 +13,18 @@ public class StepB3 {
 	
 	public void printArea() {
 		if(this.width == this.height) {
-			System.out.printf("Á÷»ç°¢ÇüÀÇ ³ĞÀÌ´Â %d ÀÌ°í\nÁ¤»ç°¢ÇüÀÔ´Ï´Ù.", getArea());
+			System.out.printf("ì§ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ”  %d ì´ê³ \n ì •ì‚¬ê°í˜•ì…ë‹ˆë‹¤.", getArea());
 		}
 		else {
-			System.out.printf("Á÷»ç°¢ÇüÀÇ ³ĞÀÌ´Â %d ÀÌ°í\nÁ¤»ç°¢ÇüÀÌ ¾Æ´Õ´Ï´Ù.", getArea());
+			System.out.printf("ì§ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ”  %d ì´ê³ \\n ì •ì‚¬ê°í˜•ì´ ì•„ë‹™ë‹ˆë‹¤.", getArea());
 		}
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("Á÷»ç°¢ÇüÀÇ °¡·Î Å©±â¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.print("ì§ì‚¬ê°í˜•ì˜ ê°€ë¡œ í¬ê¸°ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 		this.width = s.nextInt();
-		System.out.print("Á÷»ç°¢ÇüÀÇ ¼¼·Î Å©±â¸¦ ÀÔ·ÂÇÏ½Ã¿À.");
+		System.out.print("ì§ì‚¬ê°í˜•ì˜ ì„¸ë¡œ í¬ê¸°ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.");
 		this.height = s.nextInt();
 		s.close();
 	}

@@ -12,13 +12,13 @@ public class StepA5 {
 	}
 	
 	public void printSec() {
-		System.out.printf("³¯ ¼ö¿¡ ÇØ´çµÇ´Â ½Ã°£Àº ¸ğµÎ %d ÃÊÀÔ´Ï´Ù.\n", getSec());
+		System.out.printf("ë‚  ìˆ˜ì— í•´ë‹¹ë˜ëŠ” ì‹œê°„ì€ ëª¨ë‘ %d ì´ˆì…ë‹ˆë‹¤.\n", getSec());
 	}
 	
 	void input() {
 		
 		Scanner s = new Scanner(System.in);
-		System.out.print("³¯ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.print("ë‚  ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		this.days = s.nextInt();
 		s.close();
 	}

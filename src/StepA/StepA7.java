@@ -12,12 +12,12 @@ public class StepA7 {
 	}
 	
 	public void printFile() {
-		System.out.printf("ÀÔ·ÂÇÏ½Å ÆÄÀÏ ¿ë·®Àº\n %d ¸Ş°¡¹ÙÀÌÆ®,\n %d Å³·Î¹ÙÀÌÆ®, \n %d ¹ÙÀÌÆ® ÀÔ´Ï´Ù.\n", getMega(), getKilo(), getByte());
+		System.out.printf("ì…ë ¥í•˜ì‹  íŒŒì¼ ìš©ëŸ‰ì€ \n %d ë©”ê°€ë°”ì´íŠ¸,\n %d í‚¬ë¡œë°”ì´íŠ¸, \n %d ë°”ì´íŠ¸ ì…ë‹ˆë‹¤.\n", getMega(), getKilo(), getByte());
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("ÆÄÀÏ ¿ë·®À» ±â°¡¹ÙÀÌÆ® ´ÜÀ§·Î ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("íŒŒì¼ ìš©ëŸ‰ì„ ê¸°ê°€ë°”ì´íŠ¸ ë‹¨ìœ„ë¡œ ì…ë ¥í•˜ì„¸ìš”. ");
 		this.gigabytes = s.nextInt();
 		s.close();
 	}

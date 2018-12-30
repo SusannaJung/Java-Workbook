@@ -13,16 +13,16 @@ public class StepB1 {
 
 	public void printAge() {
 		if(getAge()<20) {
-			System.out.print("¹Ì¼º³âÀÚÀÔ´Ï´Ù.\n");
+			System.out.print("ë¯¸ì„±ë…„ìžìž…ë‹ˆë‹¤.\n");
 		}
 		else {
-			System.out.print("¹Ì¼º³âÀÚ°¡ ¾Æ´Õ´Ï´Ù.\n");
+			System.out.print("ë¯¸ì„±ë…„ìžê°€ ì•„ë‹™ë‹ˆë‹¤.\n");
 		}
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("ÅÂ¾î³­ ³âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("íƒœì–´ë‚œ ë…„ë„ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. ");
 		this.birth_year = s.nextInt();
 		s.close();
 	}

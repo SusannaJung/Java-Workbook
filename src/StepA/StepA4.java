@@ -12,12 +12,12 @@ public class StepA4 {
 	}
 	
 	public void printPyung() {
-		System.out.printf("¾ÆÆÄÆ®ÀÇ ÆòÇüÀº %fÀÔ´Ï´Ù.\n", getPyung());
+		System.out.printf("ì•„íŒŒíŠ¸ì˜ í‰í˜•ì€ %.1fì…ë‹ˆë‹¤.\n", getPyung());
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("¾ÆÆÄÆ® ºĞ¾ç ¸éÀûÀ» ÀÔ·ÂÇÏ½Ã¿À. ");
+		System.out.print("ì•„íŒŒíŠ¸ì˜ ë¶„ì–‘ ë©´ì ì„ ì…ë ¥í•˜ì‹œì˜¤. ");
 		this.m2_area = s.nextDouble();
 		s.close();
 	}

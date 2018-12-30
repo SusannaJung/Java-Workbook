@@ -13,13 +13,13 @@ public class StepA2 {
 	
 	public void printTemp() {
 		
-		System.out.printf("È­¾¾ ¿Âµµ´Â %f ÀÔ´Ï´Ù.\n", getTemp());
+		System.out.printf("í™”ì”¨ ì˜¨ë„ëŠ”  %fë„ ì…ë‹ˆë‹¤.\n", getTemp());
 	
 	}
 	
 	void input() {
 		Scanner s = new Scanner(System.in);
-		System.out.print("¼·¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
+		System.out.print("ì„­ì”¨ ì˜¨ë„ë¥¼ ì…ë ¥í•˜ì‹œì˜¤. ");
 		this.c_degree = s.nextDouble();
 		s.close();
 	}
